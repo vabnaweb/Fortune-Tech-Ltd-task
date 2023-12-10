@@ -1,0 +1,267 @@
+/* about */
+/*------ parent section  background -----*/
+.hero-section {
+
+    background-image: url(images/headphn-laptop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  
+  
+  }
+  
+  /* child design */
+  .hero-section-design {
+    background-color: rgba(52, 122, 168, 0.828);
+  
+    color: aliceblue;
+  
+  }
+  
+  .hero-heading {
+    width: 60%;
+  }
+  
+  .hero-heading h1 {
+  
+    font-weight: 700;
+    font-size: 55px;
+  
+  }
+  
+  .hero-heading span {
+  
+    font-weight: 700;
+    font-size: 55px;
+    color: rgb(89, 174, 95)
+  }
+  
+  .hero-section p {
+  
+    text-align: justify;
+    width: 50%;
+  }
+  
+  .hero-btn {
+    color: white;
+  
+    background-color: rgb(89, 174, 95);
+    border-style: none;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  
+  
+  
+  
+  /* for modal clander */
+  ul {
+    list-style-type: none;
+  }
+  
+  .month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #1abc9c;
+    text-align: center;
+  }
+  
+  .month ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .month .prev {
+    float: left;
+    padding-top: 10px;
+  }
+  
+  .month .next {
+    float: right;
+    padding-top: 10px;
+  }
+  
+  .weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+  }
+  
+  .weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+  }
+  
+  .days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+  }
+  
+  .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+  }
+  
+  /* Add media queries for smaller screens */
+  @media screen and (max-width:720px) {
+  
+    .weekdays li,
+    .days li {
+      width: 13.1%;
+    }
+  }
+  
+  @media screen and (max-width: 420px) {
+  
+    .weekdays li,
+    .days li {
+      width: 12.5%;
+    }
+  
+    .days li .active {
+      padding: 2px;
+    }
+  }
+  
+  @media screen and (max-width: 290px) {
+  
+    .weekdays li,
+    .days li {
+      width: 12.2%;
+    }
+  }
+  
+  /* modal css end */
+  /* -------hero section media  queary --------*/
+  @media (max-width:800px) {
+    .hero-heading {
+      width: 100%;
+    }
+  
+    .hero-heading h1 {
+  
+      font-weight: 600;
+      font-size: 30px;
+      padding-top: 15px;
+  
+    }
+  
+    .hero-heading span {
+  
+      font-weight: 600;
+      font-size: 30px;
+      color: rgb(89, 174, 95)
+    }
+  
+    .hero-section p {
+  
+      text-align: justify;
+      width: 90%;
+    }
+  
+    .computer-img {
+      width: 100%;
+    }
+  
+  }
+  
+  /* 7years of experience */
+  .experience-p {
+    color: black;
+  
+  }
+  
+  .experience-h3 {
+    color: rgba(23, 106, 161, 0.828);
+    font-size: 30px;
+  
+  }
+  
+  .experience-green {
+    color: rgb(100, 194, 106);
+  }
+
+/* navbar */
+.navli-dgn {
+    padding-left: 10px;
+    font-size: small;
+  
+  
+  }
+  
+  nav .navbar-nav li a {
+    color: rgb(36, 115, 218) !important;
+  
+  }
+  
+  nav .navbar-nav li a .pricing {
+    color: rgb(100, 194, 106) !important;
+  
+  }
+  
+  .navimg-dgn {
+  
+    padding-top: 0px;
+    padding-bottom: 0px;
+  
+  }
+  /* footer */
+  .footer-design {
+    background-color: rgba(52, 122, 168, 0.828);
+  
+    color: aliceblue;
+  }
+  
+  .footer-p {
+    font-weight: 700;
+    color: aliceblue;
+    font-size: 13px;
+  
+  }
+  
+  .footer-icon {
+    color: rgb(100, 194, 106);
+    font-size: 25px;
+  }
+  
+  .fa-border-icon3 {
+    border-color: rgb(100, 194, 106) !important;
+    border-width: 2px !important;
+    border-radius: 60px !important;
+  
+  }
+  
+  hr {
+  
+    width: 70%;
+    color: aliceblue;
+    background-color: aliceblue;
+    height: 3px;
+  
+  }
+  
+  .footer-copy-right {
+    font-size: 11px;
+  }
