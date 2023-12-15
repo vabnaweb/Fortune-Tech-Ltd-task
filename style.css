@@ -233,7 +233,9 @@ ul {
   .computer-img {
     width: 22rem !important;
   }
-  
+ .quality-card{
+  margin-left:55px ;
+ } 
 
 }
 
@@ -415,4 +417,5 @@ hr {
 
 .footer-copy-right {
   font-size: 11px;
+  margin-bottom: 0px !important;
 }
