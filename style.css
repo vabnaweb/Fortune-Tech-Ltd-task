@@ -231,8 +231,9 @@ ul {
   }
 
   .computer-img {
-    width: 100%;
+    width: 22rem !important;
   }
+  
 
 }
 
@@ -251,6 +252,7 @@ ul {
 .card-design {
   border-color: rgb(247, 250, 250) !important;
   box-shadow: 1px 3px rgb(239, 239, 237);
+  
 
 }
 
@@ -307,6 +309,7 @@ ul {
   border-color: #1074bc !important;
   box-shadow: 2px 5px rgb(239, 239, 237);
   border-radius: 15px !important;
+  margin-left: 10px;
 }
  
 
@@ -318,7 +321,7 @@ ul {
 
 .experience-h3 {
   color: #1074bc;
-  font-size: 30px;
+  font-size: 35px;
 
 }
 
@@ -327,9 +330,7 @@ ul {
 }
 
 /*--------------- technology we have used ------------------*/
-.technology-p {
-  width: 78%;
-}
+
 
 /*-------------------- trusted by major brands----------------- */
 
